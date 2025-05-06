@@ -58,5 +58,9 @@ This script automates the process of discovering potential XSS vulnerabilities b
 ## 🧰 Usage
 
 ```bash
+git clone https://github.com/Astroo18/XSSRaptor.git
+cd XSSRaptor
+mkdir -p ~/.gf
+mv .gf/* ~/.gf
 chmod +x huntxss.sh
 ./huntxss.sh -dL domains.txt -o results -t 100 -v
